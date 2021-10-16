@@ -11,7 +11,6 @@ function init() {
 };
 
 
-
 window.addEventListener('keydown', e => {
     if (e.keyCode == 37) {
         keyboard.LEFT = true;

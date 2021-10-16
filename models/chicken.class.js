@@ -1,7 +1,7 @@
 class Chicken extends MovableObject {
     y = 360; // ohne this, weil Variablen beziehen sich auf Elternklasse und überschreiben diese.
-    height = 70; // ohne this, weil Variablen beziehen sich auf Elternklasse und überschreiben diese.
-    width = 80; // ohne this, weil Variablen beziehen sich auf Elternklasse und überschreiben diese.
+    height = 60; // ohne this, weil Variablen beziehen sich auf Elternklasse und überschreiben diese.
+    width = 70; // ohne this, weil Variablen beziehen sich auf Elternklasse und überschreiben diese.
 
     IMAGES_WALKING = [
         'img/3.Secuencias_Enemy_básico/Versión_Gallinita (estas salen por orden de la gallina gigantona)/1.Ga_paso_derecho.png',

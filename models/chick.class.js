@@ -1,7 +1,7 @@
 class Chick extends MovableObject {
     y = 380; // ohne this, weil Variablen beziehen sich auf Elternklasse und überschreiben diese.
-    height = 50; // ohne this, weil Variablen beziehen sich auf Elternklasse und überschreiben diese.
-    width = 60;
+    height = 40; // ohne this, weil Variablen beziehen sich auf Elternklasse und überschreiben diese.
+    width = 50;
 
 
     IMAGES_WALKING = [
